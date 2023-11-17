@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="simObj1" class="Mypack.Sim">
+    <constructor-arg name="name" value="Vodafone"/>
+    <constructor-arg name="number" value="4473485"/>
+    <constructor-arg name="prepaid" value="true"/>
+</bean>
+
+<bean id="simobj2" class="Mypack.Sim">
+    <constructor-arg name="name" value="Telenor"/>
+    <constructor-arg name="number" value="03433933374"/>
+    <constructor-arg name="prepaid" value="false"/>
+</bean>
+</beans>
