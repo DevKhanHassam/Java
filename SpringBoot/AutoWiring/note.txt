@@ -1,0 +1,23 @@
+autowiring have 5 types
+1. ByType
+2. ByName
+3. constructor  (if you use java annutation then you have to make default constructor as well)
+4. no
+5. Default
+
+xml autowiring require setters but in java annutation it do require the setters
+
+
+To set Java annutation you have to config the annutatin in xml file
+
+
+Autowiring FLow
+
+1. First look for byType
+2. then look for  byName
+
+
+
+
+
+
