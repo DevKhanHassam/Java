@@ -1,0 +1,41 @@
+
+@Configuration
+place on above class which have functions that return objects
+we also place @Bean annou on the methods as well
+
+@Bean
+We use this to tell spring this method return object so handle it
+
+@Autowired
+
+
+@Component
+By using this we make class component of spring so spring handle it  objects
+	@Controller
+	@Service
+	@Repository
+@Service: Denotes a service class encapsulating business logic.
+@Repository: Identifies a Spring Data repository for data access.
+
+
+
+@ComponentScan
+if we use object of class that is not same package then we use this annoutation with address
+
+
+@Qualifier
+when we have more than one object of same class then autowired get confused which one i have to use so we use this @Qualifier with name of object 
+
+@Primary
+if you have more then one object of same class you can use @primary to any one of them to prioritiZe it to be used by autowird 
+//@qualifer have greater prioerithy then primary//
+
+
+
+
+
+@ResponseBody
+use in mvc for show data on page in json form
+
+@Lazy
+
