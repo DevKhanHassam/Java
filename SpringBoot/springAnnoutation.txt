@@ -7,7 +7,7 @@ we also place @Bean annou on the methods as well
 We use this to tell spring this method return object so handle it
 
 @Autowired
-
+ it has different method like bytype byname
 
 @Component
 By using this we make class component of spring so spring handle it  objects
