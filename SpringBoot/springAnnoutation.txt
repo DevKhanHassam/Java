@@ -3,6 +3,9 @@
 place on above class which have functions that return objects
 we also place @Bean annou on the methods as well
 
+
+@SpringbootConfiguration = is same as @ configuration
+
 @Bean
 We use this to tell spring this method return object so handle it
 
@@ -30,7 +33,9 @@ when we have more than one object of same class then autowired get confused whic
 if you have more then one object of same class you can use @primary to any one of them to prioritiZe it to be used by autowird 
 //@qualifer have greater prioerithy then primary//
 
+@EnableAutoConfiguration => springboot application require file in classpath when it run by this annuation it automatically configure it 
 
+@SpringBootApplication: it is combine package of   @EnableAutoConfiguration+@SpringBootConfiguration + @ComponentScan +
 
 
 
