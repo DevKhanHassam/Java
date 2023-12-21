@@ -4,7 +4,7 @@ place on above class which have functions that return objects
 we also place @Bean annou on the methods as well
 
 
-@SpringbootConfiguration = it extend the @configuration. It is for springboot
+@SpringbootConfiguration = it extend the @configuration. It is for springboot it tell the springboot that this class is configuration class
 
 @Bean
 We use this to tell spring this method return object so handle it
