@@ -1,0 +1,8 @@
+Get method is use for return the object(have data inside) from the database.
+if there is no data what you want it return null
+if you want data of id 1 it wil give you and if you again want data of same id=1 it does run query again it bring the data from cache.
+
+
+  Load method is use for return the object(proxy mean no data inside) from the database
+  Load give exception if no data found
+  Load not excute query on object creation it only run query when object.XYZ is called
